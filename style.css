@@ -2,10 +2,11 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
+    padding: 0;
 }
 
 a {
-    color: #5c6c6c;
+    color: #5F6368;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: small;   
@@ -35,20 +36,29 @@ a:hover {
     height: 40px; 
 }
 
+.app_img {
+    
+}
+
+.mail_img {
+    
+}
+
 .center {
-    width: 504x;
+    width: 504px;
     height: 200px;
-    position:absolute;
+    position: fixed;
     left: 35%;
     top: 20%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.search > input {
+.search_fild > input {
     position: relative;
+    padding: 0px 90px 0px 50px;
     border-radius: 20px;
-    width: 582px;
+    width: 440px;
     height: 44px;
     outline: none;
     border: 1px solid #e4e4e4;
@@ -62,7 +72,7 @@ form {
 .micro > button {
     position: absolute;
     top: 130px;
-    right: 8px;
+    right: -72px;
     border: 0px;
     background-color: white;
 }
@@ -70,7 +80,7 @@ form {
 .keyboard > button {
     position: absolute;
     top: 130px;
-    right: 50px;
+    right: -32px;
     border: 0px;
     background-color: white;
 }
@@ -83,8 +93,8 @@ form {
     background-color: white;
 }
 
-.search > input:hover{
-    box-shadow: 0 0 7px #e4e4e4;
+.search_fild > input:hover{
+    box-shadow: 0 0 10px #e4e4e4;
 
 } 
 
@@ -107,7 +117,7 @@ form {
 
 .sb_left {
     display: inline-block;
-    margin-right: 5px;
+    
 }
 
 .sb_left > div > input {
@@ -115,13 +125,13 @@ form {
     color: #5c6c6c;
     font-family: Arial, Helvetica, sans-serif;
     border: none;
-    height: 40px;
-    width: 120px;   
+    height: 36px;
+    width: 133px;   
+    margin: 5px 4px;
 }
 
 .sb_right {
-    display: inline-block;
-    margin-left: 5px;
+    display: inline-block; 
 }
 
 .sb_right >div > input {
@@ -129,29 +139,41 @@ form {
     color: #5c6c6c;
     font-family: Arial, Helvetica, sans-serif;
     border: none;
-    height: 40px;
-    width: 120px;
+    height: 36px;
+    width: 133px;   
+    margin: 5px 4px;
+    
 }
 
 .center_bottom{
     text-align: center;
+    font: 13px arial, sans-serif;
+    color: #222222;
 }
 
 .bottom_menu {
-    position: absolute;
+    position: absolute; 
     width: 100%;
     bottom: 0;
-    height: 100px;
     background-color: #f2f2f2;    
 }
 
 .bm_top {
-    border-bottom: 1px solid #e4e4e4;
-    padding: 2px;
     font-family: 'Roboto', sans-serif;
-    margin-left: 22px;
-    font-size: 15px;
+    height: 82px;
+}
+
+.bm_top_country {
+    border: 1px solid #e4e4e4;
+    padding: 0px 0px 0px 15px;
+    height: 39px;
     color: rgba(0,0,0,.54);
+}
+
+.bm_top_country > p {
+    font-size: 15px;
+    margin: 10px;
+    
 }
 
 .bm_right {
@@ -161,13 +183,27 @@ form {
 
 .bm_right > div {
     display: inline-block;
-    margin-right: 27px;
-    height: 30px;
     margin-top: 10px;
+    padding: 0px 0px 0px 27px;
+    font: 13px 'Roboto', sans-serif;
 }
 
 .bm_left > div {
     display: inline-block;
-    padding-left: 27px;
     margin-top: 10px;
+    padding: 0px 0px 0px 27px;
+    font: 13px 'Roboto', sans-serif;
+}
+
+
+@media screen and (max-width: 480px) {
+    .center {
+        width: 504px;
+        height: 200px;
+        position: fixed;
+        left: 35%;
+        top: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
