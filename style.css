@@ -33,26 +33,30 @@ a:hover {
 }
 
 .tm_a1{
-    height: 40px; 
+    height: auto;
 }
 
-.app_img {
-    
+
+.tm_a1> div {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
-.mail_img {
-    
-}
+
 
 .center {
-    width: 504px;
-    height: 200px;
-    position: fixed;
-    left: 35%;
-    top: 20%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    top:auto;
 }
+
+.cv2 {
+    
+}
+
+
 
 .search_fild > input {
     position: relative;
@@ -71,14 +75,13 @@ form {
 
 .micro > button {
     position: absolute;
-    top: 130px;
-    right: -72px;
+    top: 30px;
+    right: 500px;
     border: 0px;
     background-color: white;
 }
 
 .keyboard > button {
-    position: absolute;
     top: 130px;
     right: -32px;
     border: 0px;
@@ -86,7 +89,7 @@ form {
 }
 
 .find > button {
-    position: absolute;
+    
     top: 130px;
     left: 5px;
     border: 0px;
@@ -193,17 +196,4 @@ form {
     margin-top: 10px;
     padding: 0px 0px 0px 27px;
     font: 13px 'Roboto', sans-serif;
-}
-
-
-@media screen and (max-width: 480px) {
-    .center {
-        width: 504px;
-        height: 200px;
-        position: fixed;
-        left: 35%;
-        top: 20%;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
