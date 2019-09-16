@@ -66,24 +66,24 @@ form {
 
 .micro > button {
     position: absolute;
-    top: 130px;
-    right: -72px;
+    top: 190px;
+    right: 635px;
     border: 0px;
     background-color: white;
 }
 
 .keyboard > button {
     position: absolute;
-    top: 130px;
-    right: -32px;
+    top: 190px;
+    right: 670px;
     border: 0px;
     background-color: white;
 }
 
 .find > button {
     position: absolute;
-    top: 130px;
-    left: 5px;
+    top: 190px;
+    left: 715px;
     border: 0px;
     background-color: white;
 }
