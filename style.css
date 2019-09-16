@@ -50,8 +50,7 @@ a:hover {
     position: fixed;
     left: 35%;
     top: 20%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .search_fild > input {
