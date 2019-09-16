@@ -47,9 +47,6 @@ a:hover {
 .center {
     width: 504px;
     height: 200px;
-    position: fixed;
-    left: 35%;
-    top: 20%;
     margin: 0 auto;
 }
 
