@@ -44,9 +44,14 @@ a:hover {
 }
 
 .center {
-    width: 504px;
-    height: 200px;
+    width: auto;
+    height: auto;
     margin: 0 auto;
+}
+
+.cv2 {
+    text-align: center;
+    margin-top: 200px;
 }
 
 .search_fild > input {
@@ -66,24 +71,24 @@ form {
 
 .micro > button {
     position: absolute;
-    top: 190px;
-    right: 635px;
+    top: 389px;
+    right: 330px;
     border: 0px;
     background-color: white;
 }
 
 .keyboard > button {
     position: absolute;
-    top: 190px;
-    right: 670px;
+    top: 389px;
+    right: 365px;
     border: 0px;
     background-color: white;
 }
 
 .find > button {
     position: absolute;
-    top: 190px;
-    left: 715px;
+    top: 389px;
+    left: 330px;
     border: 0px;
     background-color: white;
 }
@@ -107,7 +112,7 @@ form {
 
 .img {
     height: 120px;
-    margin-left: 120px;
+    width: auto;
 }
 
 .sb_left {
