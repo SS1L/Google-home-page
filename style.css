@@ -46,12 +46,15 @@ a:hover {
 .center {
     width: auto;
     height: auto;
-    margin: 0 auto;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .cv2 {
     text-align: center;
-    margin-top: 200px;
+    
+    
 }
 
 .search_fild > input {
@@ -70,7 +73,7 @@ form {
 }
 
 .micro > button {
-    position: absolute;
+    position: fixed;
     top: 389px;
     right: 330px;
     border: 0px;
@@ -78,7 +81,7 @@ form {
 }
 
 .keyboard > button {
-    position: absolute;
+    position: fixed;
     top: 389px;
     right: 365px;
     border: 0px;
@@ -86,9 +89,9 @@ form {
 }
 
 .find > button {
-    position: absolute;
+    position: fixed;
     top: 389px;
-    left: 330px;
+    left: 500px;
     border: 0px;
     background-color: white;
 }
@@ -198,12 +201,15 @@ form {
 
 @media screen and (max-width: 480px) {
     .center {
-        width: 504px;
-        height: 200px;
-        position: fixed;
-        left: 35%;
-        top: 20%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-top: 50%
     }
+    .bottom_menu {
+        position: absolute; 
+        width: 100%;
+        bottom: 0;
+        background-color: #f2f2f2;    
+    }    
+}
+
+@media screen and (max-width: 600px) {
 }
