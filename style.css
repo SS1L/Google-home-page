@@ -7,10 +7,10 @@ body {
 }
 
 a {
-    color: #5F6368;
+    color: #5f6368;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: small;   
+    font-family: "Roboto", sans-serif;
+    font-size: small;
 }
 
 a:hover {
@@ -26,18 +26,17 @@ a:hover {
 .tm_a {
     margin-right: 20px;
     word-spacing: 20px;
-} 
+}
 
 .tm_a > .tm_img {
     display: inline-block;
 }
 
-.tm_a1{
+.tm_a1 {
     height: auto;
 }
 
-
-.tm_a1> div {
+.tm_a1 > div {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
@@ -52,13 +51,12 @@ a:hover {
 }
 
 .cv2 {
-    text-align: center;   
+    text-align: center;
 }
 
 .search_fild {
     position: relative;
 }
-
 
 .search_fild > input {
     box-sizing: border-box;
@@ -68,21 +66,23 @@ a:hover {
     height: 44px;
     outline: none;
     border: 1px solid #e4e4e4;
-    -webkit-tap-highlight-color: transparent;    
+    -webkit-tap-highlight-color: transparent;
 }
 
-.search_fild .keyboard{ 
-    top: 7px;
+.search_fild .keyboard {
+    position: absolute;
+    right: 30px;
 }
 
 .keyboard {
-    margin-right:0px;
+    top: 8px;
+    right: 5px;
 }
 
 .search_fild .micro {
     position: absolute;
     top: 8px;
-    right: 0%;
+    right: 0px;
 }
 
 .search_fild .find {
@@ -90,7 +90,6 @@ a:hover {
     top: 9px;
     left: -10px;
 }
-
 
 .micro > button {
     border: none;
@@ -119,11 +118,9 @@ a:hover {
     width: 100%;
 }
 
-
-.search_fild > input:hover{
+.search_fild > input:hover {
     box-shadow: 0 0 10px #e4e4e4;
-
-} 
+}
 
 .search_bottom {
     text-align: center;
@@ -131,7 +128,7 @@ a:hover {
     margin-bottom: 30px;
 }
 
-.search_bottom > input  {
+.search_bottom > input {
     height: 36px;
     background: #f2f2f2;
     font: 13px Arial, sans-serif;
@@ -144,7 +141,6 @@ a:hover {
 
 .sb_left {
     display: inline-block;
-    
 }
 
 .sb_left > div > input {
@@ -153,38 +149,36 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
     border: none;
     height: 36px;
-    width: 133px;   
+    width: 133px;
     margin: 5px 4px;
 }
 
 .sb_right {
-    display: inline-block; 
+    display: inline-block;
 }
 
-.sb_right >div > input {
+.sb_right > div > input {
     background-color: #f2f2f2;
     color: #5c6c6c;
     font-family: Arial, Helvetica, sans-serif;
     border: none;
     height: 36px;
-    width: 133px;   
+    width: 133px;
     margin: 5px 4px;
-    
 }
 
-.center_bottom{
+.center_bottom {
     text-align: center;
     font: 13px arial, sans-serif;
     color: #222222;
 }
 
 .bottom_menu {
-    position: absolute; 
     width: 100%;
     bottom: 0;
-    background-color: #f2f2f2;   
-    font-size: small; 
-    font: 13px 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    font-size: small;
+    font: 13px "Roboto", sans-serif;
 }
 
 .bm_top {
@@ -195,19 +189,17 @@ a:hover {
     border: 1px solid #e4e4e4;
     padding: 0px 0px 0px 15px;
     height: 39px;
-    color: rgba(0,0,0,.54);
+    color: rgba(0, 0, 0, 0.54);
 }
 
 .bm_top_country > p {
     font-size: 15px;
     margin: 10px;
-    
 }
 
-.bm_bottom{
+.bm_bottom {
     height: 41px;
 }
-
 
 .bm_right {
     float: right;
@@ -218,7 +210,7 @@ a:hover {
     display: inline-block;
     margin-top: 10px;
     padding: 0px 0px 0px 27px;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .bm_left > div {
@@ -227,15 +219,12 @@ a:hover {
     padding: 0px 0px 0px 27px;
 }
 
-
-
-
 @media screen and (max-width: 480px) {
     .center {
         height: auto;
-        margin: 0px; 
+        margin: 0px;
     }
-    
+
     .search_fild > input {
         padding: 0px 90px 0px 60px;
         width: 60%;
@@ -269,7 +258,6 @@ a:hover {
         margin-right: 0%;
     }
 
-    
     .link > a {
         display: none;
     }
